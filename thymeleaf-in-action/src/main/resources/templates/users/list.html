@@ -5,7 +5,7 @@
        xmlns:th="http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
 
 <head>
-
+huiyiihihi
 </head>
 <body>
 <div th:replace="~{fragments/header :: header}">...</div>
@@ -27,14 +27,4 @@
         <td colspan="3">没有用户信息！！</td>
     </tr>
     <tr th:each="user : ${userModel.userList}">
-        <td th:text="${user.id}">1</td>
-        <td th:text="${user.age}">11</td>
-        <td><a href="view.html" th:href="@{'/users/' + ${user.id}}"
-               th:text="${user.name}">waylau</a></td>
-    </tr>
-    </tbody>
-</table>
-
-<div th:replace="~{fragments/footer :: footer}">...</div>
-</body>
-</html>
+        <td th:text="${user.id}">1
